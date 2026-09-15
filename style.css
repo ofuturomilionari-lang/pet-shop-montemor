@@ -617,6 +617,22 @@ section{ padding: 84px 0; }
   section{ padding: 60px 0; }
   .hero{ padding: 40px 0 40px; }
 
+ .hero-media {
+  width: 100%;
+  height: auto;
+}
+
+.hero-media img {
+  width: 100%;
+  height: auto !important;
+  aspect-ratio: unset !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  display: block;
+}
+
+
+
   .menu-toggle{ display: flex; }
 
   .main-nav{
@@ -672,8 +688,8 @@ section{ padding: 84px 0; }
     width: 52px;
     height: 52px;
   }
-}
 
+}
 @media (max-width: 380px){
   .logo-line2{ font-size: 1.3rem; }
   .hero-actions .btn{ width: 100%; }
